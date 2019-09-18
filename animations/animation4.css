@@ -1,0 +1,45 @@
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EA2027;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+  }
+  
+ nav li {
+    margin: 1em;
+    border-left: solid 1px #d4d4d4;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+
+
+  h1{
+      color: #fff;
+      font-size: 50px;
+  }
+
+
+  span:before{
+      content: 'Transition';
+      text-transform: uppercase;
+      font-family: arial;
+      color: #1B1464;
+      animation: word-switch 1s infinite;
+  }
+
+  @keyframes word-switch{
+      0%{content: 'transition';}
+
+      50%{content: 'animation';}
+
+      100%{content: 'transform';}
+  }
