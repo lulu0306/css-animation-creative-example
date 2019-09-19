@@ -48,3 +48,7 @@ nav ul {
     margin-left: 1em;
     padding-left: 1em;
   }
+
+  a{
+      text-decoration: none;
+  }

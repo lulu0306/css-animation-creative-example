@@ -1,0 +1,35 @@
+nav ul {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+  }
+  
+ nav li {
+    margin: 1em;
+    border-left: solid 1px #d4d4d4;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+
+  .body{
+    height: 100vh;
+    background:url(../animations/img/castle.jpg);
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .rain{
+      height: 100vh;
+      background: url(./img/rain.png);
+      animation: rain 0.3s linear infinite;
+  }
+
+  @keyframes rain{
+      0%{background-position: 0% 0%}
+
+      100%{background-position: 20% 100%}
+  }

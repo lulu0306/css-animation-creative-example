@@ -1,0 +1,28 @@
+nav ul {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+  }
+  
+ nav li {
+    margin: 1em;
+    border-left: solid 1px #d4d4d4;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+
+  .banner{
+    height: 100vh;
+    background: url(./img/bg2.png);
+    background-position: 0 0;
+    animation: animated-pattern 15s linear infinite;
+}
+
+@keyframes animated-pattern{
+    from{background-position: 0 0;}
+
+    to{background-position: 800px 600px;}
+}
+
